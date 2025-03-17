@@ -7,7 +7,7 @@
 
 //2
 
-document.querySelector("#btn2").addEventListener("click", () => {
+    document.querySelector("#btn2").addEventListener("click", () => {
     let Num1 = document.getElementById("ing21").value;
     let Num2 = document.getElementById("ing22").value;
     const suma = (Num1,Num2) => Num1 + Num2;
@@ -21,7 +21,7 @@ document.querySelector("#btn2").addEventListener("click", () => {
 
 
 //3
-document.querySelector("#btn3").addEventListener("click", () => {
+    document.querySelector("#btn3").addEventListener("click", () => {
     let Num = document.getElementById("ing3").value;
     if(Num % 2 === 0) {
         console.log("Es par");
@@ -36,7 +36,7 @@ document.querySelector("#btn3").addEventListener("click", () => {
 
 //4
 
-document.querySelector("#btn4").addEventListener("click", () => {
+    document.querySelector("#btn4").addEventListener("click", () => {
     let Contar = document.getElementById("ing4").value;
 
     console.log(Contar.length);
@@ -45,7 +45,7 @@ document.querySelector("#btn4").addEventListener("click", () => {
 })
 
 //5
-document.querySelector("#btn5").addEventListener("click", () => {
+    document.querySelector("#btn5").addEventListener("click", () => {
     let frase = document.getElementById("ing51").value;
     let cant = document.getElementById("ing52").value;
 
@@ -58,7 +58,7 @@ document.querySelector("#btn5").addEventListener("click", () => {
 })
 
 //6
-document.querySelector("#btn6").addEventListener("click", () => {
+    document.querySelector("#btn6").addEventListener("click", () => {
     let Num6 = document.getElementById("ing6").value;
 
     console.log(Num6 * 1 );
@@ -76,7 +76,7 @@ document.querySelector("#btn6").addEventListener("click", () => {
 
 
 //7
-document.querySelector("#btn7").addEventListener("click", () => {
+    document.querySelector("#btn7").addEventListener("click", () => {
     let Num7 = document.getElementById("ing7").value;
 
     if(Num7>rng){
@@ -90,12 +90,12 @@ document.querySelector("#btn7").addEventListener("click", () => {
 
 })
 
-const rng = Math.floor(Math.random(10)) + 1;
+    const rng = Math.floor(Math.random(10)) + 1;
 
 
 
 //8
-document.querySelector("#btn8").addEventListener("click", () => {
+    document.querySelector("#btn8").addEventListener("click", () => {
     let palabra = document.getElementById("ing8").value;
     var contador = 0;
     for (let i=0; i < palabra.length; i++) {
@@ -109,7 +109,7 @@ document.querySelector("#btn8").addEventListener("click", () => {
 
 
 //9
-document.querySelector("#btn9").addEventListener("click", () => {
+    document.querySelector("#btn9").addEventListener("click", () => {
     let palabraR = document.getElementById("ing9").value;
 
     console.log("Palabra en reversa: " + palabraR.split("").reverse().join(''));
@@ -118,7 +118,7 @@ document.querySelector("#btn9").addEventListener("click", () => {
 
 
 //10
-document.querySelector("#btn10").addEventListener("click", () => {
+    document.querySelector("#btn10").addEventListener("click", () => {
     let palabraP = document.getElementById("ing10").value;
     const invertido = palabraP.split("").reverse().join("");
 
